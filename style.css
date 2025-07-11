@@ -1,0 +1,44 @@
+body {
+  font-family: arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.calculator {
+  padding: 20px;
+  width: 300px;
+  border: 2px solid #666;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+.display {
+  width: 93%;
+  height: 50px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: right;
+  border: 2px, solid #888;
+  font-size: 25px;
+}
+
+.clear {
+  margin-top: 10px;
+  width:50%;
+}
+
+.delete {
+  margin-top: 10px;
+  width: 48%;
+}
